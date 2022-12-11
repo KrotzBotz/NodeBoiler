@@ -1,0 +1,154 @@
+* {
+	font-family: 'Open Sans';
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.header {
+	position: fixed;
+	background: #222f3e;
+	z-index: 101;
+	width: 100%;
+	height: 55px;
+	font-family: 'Open Sans';
+}
+.links {
+	position: absolute;
+	right: 4%;
+	padding: 15px;
+	font-family: 'Open Sans';
+	font-size: 15px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #feca57;
+}
+body {
+	font-family: 'Open Sans';
+	background-color: aliceblue;
+}
+#footer {
+	position: fixed;
+	height: 30px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #222f3e;
+}
+.button {
+	margin-left: 15px;
+	color: white;
+	border-radius: 3px;
+}
+.logo {
+	margin-top: -30px;
+	margin-right: 40px;
+	float: left;
+	transform: rotate(90deg);
+}
+.title {
+	margin-top: 3px;
+	float: left;
+	color: #feca57;
+	font-weight: 500;
+	font-size: 30px;
+}
+.head-logo {
+	position: absolute;
+	width: 45%;
+	left: 5%;
+}
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.center-picture {
+	position: absolute;
+	height: 700px;
+	width: 100%;
+	background-image: linear-gradient(
+			0deg,
+			rgba(43, 32, 25, 0.671875) 0%,
+			rgba(0, 0, 0, 0.2599253144654088) 57%,
+			rgba(255, 93, 0, 0) 100%
+		),
+		url('http://127.0.0.1:8000/images/bar.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+}
+.center-message {
+	font-family: 'Open Sans';
+	height: 2;
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -15%;
+	top: 50%;
+	margin-top: -50px;
+	text-align: center;
+	color: aliceblue;
+	font-size: 25px;
+	z-index: 100;
+}
+
+.bottom-bar {
+	position: relative;
+	height: 50px;
+	background-color: #222f3e;
+	font-family: 'Open sans';
+	font-weight: 300px;
+	font-size: 15px;
+}
+.bottom-bar-button {
+	position: relative;
+	top: 15px;
+	left: 6%;
+	margin-left: px;
+	background-color: #feca57;
+	padding: 5px 8px;
+	border-radius: 4px;
+}
+.bottom-bar-button:hover {
+	background-color: #80652b;
+}
+
+.location {
+	position: relative;
+	font-family: 'Open sans';
+	width: 1000px;
+	left: 50%;
+	margin-left: -450px;
+	padding-top: 40px;
+}
+.america {
+	width: 500px;
+	float: left;
+	border-radius: 4px;
+}
+.left {
+	width: 40%;
+	float: left;
+	margin-right: 40px;
+}
+.target-photo {
+	position: relative;
+	margin-top: 15px;
+	width: 801px;
+	height: 600px;
+	left: 50%;
+	margin-left: -300px;
+	border-radius: 3px;
+}
+.target-image-background {
+	margin-top: 40px;
+	background-color: #c5d4de;
+}
+iframe {
+	width: 980px;
+	height: 600px;
+}
